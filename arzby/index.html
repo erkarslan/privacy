@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arzby — Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --primary:#7C4DFF; --accent:#FF7A1A;
+    --bg:#F7F7F7; --surface:#FFFFFF;
+    --text:#22232B; --muted:#7D8090; --border:#E4E4EA;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#121216; --surface:#1C1C22;
+      --text:#F2F2F6; --muted:#9DA0B0; --border:#32323C;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:'Poppins',-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    line-height:1.7; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:48px 22px 80px}
+  .brand{
+    font-size:30px; font-weight:700; letter-spacing:-.9px; margin:0 0 4px;
+    background:linear-gradient(90deg,var(--primary) 35%,var(--accent) 95%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  h1{font-size:22px; font-weight:700; letter-spacing:-.3px; margin:0 0 6px}
+  .updated{color:var(--muted); font-size:13.5px; margin:0 0 32px}
+  h2{
+    font-size:16px; font-weight:600; letter-spacing:-.1px;
+    margin:32px 0 10px; padding-top:22px; border-top:1px solid var(--border);
+  }
+  h2:first-of-type{border-top:0; padding-top:0}
+  p,li{font-size:15px; color:var(--text)}
+  ul{padding-left:20px; margin:10px 0}
+  li{margin:8px 0}
+  li ul{margin:6px 0}
+  strong{font-weight:600}
+  em{color:var(--muted); font-style:normal}
+  a{color:var(--primary); text-decoration:none}
+  a:hover{color:var(--accent); text-decoration:underline}
+  .note{
+    background:var(--surface); border:1px solid var(--border);
+    border-radius:14px; padding:14px 16px; margin:24px 0;
+    font-size:13.5px; color:var(--muted);
+  }
+  footer{margin-top:40px; color:var(--muted); font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">Arzby</div>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: September 14, 2026</p>
+
+  <h2>Data Collection</h2>
+  <p>Arzby does <strong>not</strong> collect, store, or transmit any personal data. There is no account and no sign-in.</p>
+  <p>Your watchlist, your ratings, titles you skipped, and your preferences (language, theme) are stored <strong>only on your device</strong> using local storage. They are never uploaded anywhere and are deleted when you uninstall the app.</p>
+
+  <h2>Third-Party Services</h2>
+  <ul>
+    <li><strong>TMDB (The Movie Database)</strong> — provides all movie and TV data, posters, and trailers. Requests are sent through our own server and contain only your search filters (genre, year, rating, language). They carry no identifier and cannot be linked to you.</li>
+    <li><strong>Google Firebase</strong> — used for:
+      <ul>
+        <li><em>Remote Config</em>: delivers app configuration values.</li>
+        <li><em>App Check</em>: verifies that requests come from a genuine, unmodified copy of Arzby, using Apple App Attest on iOS and Google Play Integrity on Android. These services assess device and app integrity; they do not identify you personally.</li>
+        <li><em>Cloud Functions</em>: relays requests to TMDB so that API credentials never reach your device.</li>
+      </ul>
+    </li>
+    <li><strong>YouTube</strong> — trailers are played inside the app through the official YouTube player. YouTube may collect data as described in Google's privacy policy.</li>
+  </ul>
+  <div class="note">We do not use analytics, advertising, or tracking of any kind.</div>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Internet</strong> — required to load movie data, posters, and trailers.</li>
+  </ul>
+  <p>Arzby requests no other permissions. It does not access your contacts, location, camera, microphone, photos, or files.</p>
+
+  <h2>Data Storage</h2>
+  <p>All app data is stored locally on your device. No data is sent to any server other than the requests described above, which contain no personal information.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Arzby does not knowingly collect any information from children under 13.</p>
+
+  <h2>Attribution</h2>
+  <p>This application uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this policy: <a href="mailto:erk.arslan@hotmail.com">erk.arslan@hotmail.com</a></p>
+
+  <footer>Arzby is developed by Renkasoft.</footer>
+</div>
+</body>
+</html>
